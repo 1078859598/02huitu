@@ -27,8 +27,8 @@ int main()
 	cv::Rect rect;
 	rect.x = 100;
 	rect.y = 100;
-	rect.width;
-	rect.height;
+	rect.width = 100;
+	rect.height = 100;
 	rectangle(picture, rect, CV_RGB(255, 0, 0), 1, 8, 0);
 
 	cv::imshow("img", picture);
